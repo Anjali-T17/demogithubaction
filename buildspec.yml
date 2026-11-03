@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+install:
+commands:
+- echo “Installing project dependencies”
+
+build:
+commands:
+- echo “Building Placement Demo Website”
+- ls -la
+
+artifacts:
+files:
+- ‘**/*’
