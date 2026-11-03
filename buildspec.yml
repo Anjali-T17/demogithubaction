@@ -1,6 +1,7 @@
 version: 0.2
 
 phases:
+<<<<<<< HEAD
 install:
 commands:
 - echo “Installing project dependencies”
@@ -13,3 +14,17 @@ commands:
 artifacts:
 files:
 - ‘**/*’
+=======
+  install:
+    commands:
+      - echo "Installing dependencies"
+
+  build:
+    commands:
+      - echo "Building website"
+      - ls -la
+
+artifacts:
+  files:
+    - '**/*'
+>>>>>>> 19fd15d (Add buildspec file)
